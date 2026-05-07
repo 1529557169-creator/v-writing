@@ -1,0 +1,15 @@
+name: v_writing
+version: 0.1.0+1
+publish_to: none
+description: V写作 - 网络小说与设定集创作工具 Android MVP
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+flutter:
+  uses-material-design: true
