@@ -2,6 +2,7 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
+import 'bookshelf_page.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -25,7 +26,7 @@ class VWritingApp extends StatelessWidget {
           brightness: Brightness.light,
         ),
       ),
-      home: const MainShell(),
+      home: const BookshelfPage()
     );
   }
 }
