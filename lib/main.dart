@@ -26,7 +26,7 @@ class VWritingApp extends StatelessWidget {
           brightness: Brightness.light,
         ),
       ),
-      home: const BookshelfPage()
+      home: const MainNavigation()
     );
   }
 }
